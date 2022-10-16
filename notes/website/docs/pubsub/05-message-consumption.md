@@ -5,6 +5,8 @@ sidebar_label: Message consumption
 
 # Message consumption
 
+## Subcription types
+
 ## Failure handling
 
 ### DLQ
