@@ -11,7 +11,7 @@ const config = {
   title: 'Google Cloud Platform',
   tagline: 'Self Study Notes',
   url: 'https://calcifer777.github.io',
-  baseUrl: '/gcp-notes/',
+  baseUrl: '/learn-gcp/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
