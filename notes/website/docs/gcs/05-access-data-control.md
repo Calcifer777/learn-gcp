@@ -1,4 +1,4 @@
 ---
-sidebar_position: 1
-sidebar_label: Security
+sidebar_position: 5
+sidebar_label: Access Data Control
 ---
