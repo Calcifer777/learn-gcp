@@ -19,5 +19,5 @@ Workflows is serverless, scaling up as needed, and no charges are incurred while
 
 ## Resources
 
-Docs: https://cloud.google.com/workflows/docs/overview
-Quotas and Limits: https://cloud.google.com/workflows/quotas
+- Docs: https://cloud.google.com/workflows/docs/overview
+- Quotas and Limits: https://cloud.google.com/workflows/quotas
