@@ -77,6 +77,7 @@ Use index single-field exemptions for:
 ## Monitoring
 
 - Database access can be traced with *audit logs*. To receive Data Access audit logs, you must explicitly enable them
+
 ## Resources
 
 - Docs: https://cloud.google.com/firestore/docs/concepts

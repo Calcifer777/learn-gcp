@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sidebar_label: Cloud SQL
+sidebar_label: Big Table
 ---
 
-# Cloud SQL
+# Big Table
