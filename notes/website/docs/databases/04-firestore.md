@@ -18,6 +18,11 @@ Serverless document database
 
 - Like JSON objects, but with extra data types and limited in size to 1 MB
 
+#### Time-to-live Policies
+
+- Automatically remove stale data **at the document level** from your databases. 
+- A TTL policy designates a given field as the expiration time for documents in a given collection group.
+
 ### Collections
 
 - Containers for documents
@@ -73,6 +78,17 @@ Use index single-field exemptions for:
 
 - The Firestore client libraries automatically retry transactions that fail due to data contention. After a finite number of retries, the transaction operation fails and returns an error message
 - The server-client libraries use pessimistic concurrency controls resolve data contention.
+
+## Integration
+
+### Cloud Functions
+
+Cloud Functions can handle events in Cloud Firestore in **the same Cloud project as the function**. 
+
+In a typical lifecycle, a Cloud Firestore function does the following:
+- Waits for changes to a particular document.
+- Triggers when an event occurs and performs its tasks.
+- Receives a data object with a snapshot of the affected document. For write or update events, the data object contains snapshots representing document state before and after the triggering event.
 
 ## Monitoring
 
